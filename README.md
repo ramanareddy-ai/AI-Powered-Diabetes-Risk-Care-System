@@ -2,16 +2,16 @@
 
 An interactive **Streamlit** application that predicts a person's diabetes risk using **Machine Learning** (Logistic Regression) and **OpenAI GPT** for educational explanations.  
 Generates a **beautiful, patient-friendly PDF report** with:  
-- 📝 Patient-entered metrics  
-- 📊 Risk score & category  
-- 💬 AI-generated plain-language explanation  
-- 📌 Likely contributing factors  
-- 🩹 Suggested next steps for care  
-- 🖼️ Logo, patient details, and a visual risk chart  
+- Patient-entered metrics  
+- Risk score & category  
+- AI-generated plain-language explanation  
+- Likely contributing factors  
+- Suggested next steps for care  
+- Logo, patient details, and a visual risk chart  
 
 ---
 
-## 🚀 Features
+## Features
 - **Interactive Web UI** powered by [Streamlit](https://streamlit.io/).
 - **Machine Learning model** trained on Pima Indians Diabetes Dataset.
 - **AI Explanation** via OpenAI API (compassionate, non-medical educational tone).
@@ -24,7 +24,7 @@ Generates a **beautiful, patient-friendly PDF report** with:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 AI_Powered_Diabetes_Risk_Care_System_ML/
 ├── app/
@@ -44,33 +44,33 @@ AI_Powered_Diabetes_Risk_Care_System_ML/
 
 ---
 
-## 🛠 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone or Download
+### 1 Clone or Download
 ```bash
 git clone https://github.com/yourusername/AI_Powered_Diabetes_Risk_Care_System_ML.git
 cd AI_Powered_Diabetes_Risk_Care_System_ML
 ```
 
-### 2️⃣ Create a Virtual Environment
+### 2 Create a Virtual Environment
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Mac/Linux
 .venv\Scripts\activate     # Windows
 ```
 
-### 3️⃣ Install Dependencies
+### 3 Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Add OpenAI API Key
+### 4 Add OpenAI API Key
 Create a `.env` file in the project root:
 ```
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-### 5️⃣ Add Unicode Font (already included)
+### 5 Add Unicode Font (already included)
 Ensure `app/assets/fonts/DejaVuSans.ttf` is present.  
 If missing:
 ```bash
@@ -88,7 +88,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 📊 Example PDF Output
+## Example PDF Output
 The generated PDF includes:
 1. **Patient Information**  
 2. **Metrics Table**  
@@ -103,7 +103,7 @@ The generated PDF includes:
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - **Python 3.10+**
 - **Streamlit** (UI)
 - **scikit-learn** (ML Model)
@@ -114,11 +114,11 @@ The generated PDF includes:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This app is **for educational purposes only**.  
 It is **not** a medical diagnosis tool. Always consult a qualified healthcare professional for medical concerns.
 
 ---
 
-## 📜 License
-MIT License © 2025 Your Name
+## License
+MIT License © 2025 Ramana Reddy

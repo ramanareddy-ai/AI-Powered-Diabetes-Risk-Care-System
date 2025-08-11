@@ -1,0 +1,8 @@
+# Required Python packages for running the AI‑Powered Diabetes Risk & Care System
+streamlit
+openai
+pandas
+numpy
+scikit-learn
+matplotlib
+fpdf2
